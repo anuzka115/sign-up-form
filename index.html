@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content-container">
+     <div class="left-container">
+        <div class="image-container">
+            <div class="logo">
+                <img src="https://i.redd.it/6cd114hkfr7a1.png" height="80px" width="80px">
+                <p> Ghibli Fanpage</p>
+            </div>
+        </div>
+     </div>
+    <div class="form-container">
+        <div class="text">
+            <p  class="headline">Sign-Up Today</p>
+            <p class="discription">Sign up to stay connected with fellow enthusiasts, receive exclusive fan art, merchandise updates, and thrilling discussions.</p>
+        </div>
+        <div class="form-contents">
+        <form action="#">
+            <div class="fieldset">
+            <div class="form__group">
+            <input id="name" class="form__input" placeholder="Name *" name="name" type="text" value="" pattern="^[^0-9]+$" size="30" maxlength="245" required>
+            <label for="name" class="form__label">Name</label>
+            </div>
+            <div class="form__group">
+                <input id="surname" class="form__input" placeholder="Surname *" name="surname" type="text" value="" size="30" maxlength="245" required>
+                <label for="surname" class="form__label">Surname</label>
+            </div>
+        </div>
+        <div class="fieldset">
+            <div class="form__group">
+                <input id="email" class="form__input" placeholder="Email *" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" required>
+                <label for="email" class="form__label">Email</label>
+            </div>
+            <div class="form__group">
+                <input id="phone-number" class="form__input" placeholder="Phone Number" name="phone-number" type="text" value="" minlength="10" required>
+                <label for="phone-number" class="form__label">Contact Number</label>
+            </div>
+        </div>
+        <div class="fieldset">
+            <div class="form__group">
+                <input id="password"class="form__input" placeholder="Create Password*" name="password" type="password" minlength="8" required>
+                <label for="password" class="form__label">Create Password</label>
+            </div>
+            <div class="form__group">
+                <input id="password" class="form__input" placeholder="Confirm Password*" name="password" type="password" minlength="8" required>
+                <label for="password" class="form__label">Confirm Password</label>
+            </div>
+            </div>
+            <div class="submit">
+               <button type="submit" class="btn">
+                Sign Up
+                </button>
+                <div class="existing-account">
+                    Already have an account?<br>
+                    <a href="#">Log in</a>
+                </div>
+            </div>
+        </form>
+        </div>
+    </div>
+    </div>
+    <footer class="copyright">
+        <p>
+            Copyright ©
+            <script>
+              document.write(new Date().getFullYear())
+            </script>
+            anuzka115
+          <a href="https://github.com/anuzka115" target="_blank">
+           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png?20180806170715" height="20px" width="20px">
+        </a>
+        </p>
+    </footer>
+</body>
+</html>

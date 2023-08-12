@@ -1,0 +1,151 @@
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-size: 62,5%;
+}
+body{
+    margin-top:5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0%;
+    background-color: #71735f;
+}
+
+.content-container{
+    display: flex;
+    background-color:#b0b6a7;
+    border-radius: 12px;
+}
+
+.image-container{
+    background-image: url(realtotoro.svg);
+    background-size:85% 100%;
+    background-position: bottom center;
+    flex: 1;
+    min-height: 700px;
+    min-width: 700px;
+    background-repeat: no-repeat;
+
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-contents{
+    display: flex;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.fieldset{
+    display: flex;
+    gap:40px;
+   
+}
+.logo{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 20px;
+}
+.logo p{
+    font-size: 27px;
+    font-family: monospace;
+}
+.form__label {
+    font-family: monospace;
+    font-size: 25px;
+    margin: 15px;
+    display: flex;
+    transition: all 0.3s;
+    transform: translateY(0rem);
+  }
+  
+  .form__input {
+    font-family: monospace;
+    color: #333;
+    font-size: 16px;
+      margin: 0;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 230px;
+    display: flex;
+    border-bottom: 5px solid transparent;
+    transition: all 0.3s;
+  }
+  
+  .form__input:placeholder-shown + .form__label {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(-4rem);
+    transform: translateY(-4rem);
+  }
+  .headline{
+    font-family: monospace;
+    font-size: 37px;
+    margin-bottom: 0px;
+  }
+  .btn{
+    color:rgb(8, 8, 7);
+    padding:15px;
+    display: block;
+    text-decoration: none;
+    font-size: 17px;
+    border: 5px;
+    outline: 0;
+    background-color:#71735f;
+    border-radius: 12px;
+    font-family: monospace;
+}
+.btn:hover {background-color: #a6ab57}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.discription{
+    font-family: monospace;
+    font-size: 15px;
+    margin: 40px;
+    opacity: 0.7;
+}
+.existing-account{
+    font-size: 17px;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px
+}
+footer{
+    background-color: #1b1b1a;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    align-items: center;
+    font-family: monospace;
+    color: white;
+}
+.existing-account a:link{
+    color: #1b1b1a;
+}
+.existing-account a:hover{
+    color:#a6ab57;
+}
